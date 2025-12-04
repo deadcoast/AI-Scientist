@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda env list:*)",
+      "Bash(echo $OPENAI_API_KEY)",
+      "Bash(conda run:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(chmod:*)",
+      "Bash(for dir in templates/*/run_0)",
+      "Bash(do if [ -d \"$dir\" ])",
+      "Bash(fi)",
+      "Bash(done)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
