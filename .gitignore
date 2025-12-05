@@ -166,6 +166,8 @@ cython_debug/
 
 # Claude Code local settings (may contain secrets)
 .claude/settings.local.json
+.settings.local.json
+**/settings.local.json
 
 # Misc folders
 data/
