@@ -164,6 +164,9 @@ cython_debug/
 .aider*
 *.DS_Store
 
+# Claude Code local settings (may contain secrets)
+.claude/settings.local.json
+
 # Misc folders
 data/
 *ckpt.pt
